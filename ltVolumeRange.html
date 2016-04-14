@@ -1,0 +1,9 @@
+<div>
+    <input min="0" max="1" id="volume_value" step="0.1" type="range"
+           data-ng-model="Player.control.volume"
+           ng-mouse-wheel-up="Player.setVolumeUp()"
+           ng-mouse-wheel-down="Player.setVolumeDown()"
+           data-ng-change="Player.setVolume()">
+    <div id="volume_front" data-ng-style="{'width':Player.control.volume*100}"></div>
+    <div id="volume_back"></div>
+</div>
