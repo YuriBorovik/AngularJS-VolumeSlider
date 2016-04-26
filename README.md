@@ -2,7 +2,7 @@
 
 Volume slider with mouse Volume up/down on mouse scroll (those functions are not included)
 
-Instal:
+Install:
 =======
 1. Change default (`app.ui`) module name
 2. Use as element or atribute `<lt-volume-range>`
